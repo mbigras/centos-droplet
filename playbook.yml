@@ -1,0 +1,10 @@
+---
+- hosts: all
+  tasks:
+
+  - name: Create a file
+    copy:
+      dest: /root/helloworld
+      content: ""
+      force: no
+
